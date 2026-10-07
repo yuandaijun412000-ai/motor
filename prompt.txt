@@ -1,0 +1,31 @@
+现在我要进行单定子交替极优化，图片是原始静态拓扑，参数化了定子侧永磁体的长(stator_lpm)宽(a_angle)高(hpm2)，动子侧永磁体长(lpm)宽(pm_angle)高(hpm)，动子侧与永磁体相同宽和高的磁化铁突出部分的长lextrude，前6项是独立优先参数量，定子长度lout=2*stator_lpm，动子铁芯长度lin=lpm+2*lextrude，动子侧所有部分都设了位移a变量，模拟一个周期内动子往复振荡运动。现在我要进行结构优化，是先进行单参数扫描，还是进行拉丁立方采样+灵敏度分析+代理模型+多目标优化?我给出当前图电机的尺寸，请你给我这6个变量的扫描、优化范围Name	Value	Unit	"Evaluated Value"	Type
+r5	43	mm	43mm	Design
+hs0	2	mm	2mm	Design
+r7	74	mm	74mm	Design
+a_angel	28	deg	28deg	Design
+r3	r4-airgap		39mm	Design
+r4	r5-hpm2		40mm	Design
+part_angel	30	deg	30deg	Design
+r1	20	mm	20mm	Design
+r2	r3-hpm		36mm	Design
+corner_angel	asin(hs2/r6)		8.0840139070993deg	Design
+hs2	9	mm	9mm	Design
+r6	r7-hout		64mm	Design
+b_angel	30	deg	30deg	Design
+lpm	20	mm	20mm	Design
+lin	lpm+2*lextrude		60mm	Design
+lout	2*stator_lpm		40mm	Design
+i	N*ic		350A	Design
+a	0	mm	0mm	Design
+pm_angel	27	deg	27deg	Design
+airgap	1	mm	1mm	Design
+hpm	3	mm	3mm	Design
+N	350		350	Design
+ic	1	A	1A	Design
+lspace	35	mm	35mm	Design
+n_stator	1		1	Design
+n_space	1		1	Design
+hpm2	3	mm	3mm	Design
+lextrude	20	mm	20mm	Design
+hout	10	mm	10mm	Design
+stator_lpm	20	mm	20mm	Design

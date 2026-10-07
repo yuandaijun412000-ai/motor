@@ -1,0 +1,17 @@
+# Dependency directories and local runtime links
+node_modules/
+**/node_modules/
+
+# Office temporary lock files
+~$*
+
+# Generated inspection logs
+*.inspect.ndjson
+
+# MATLAB autosave and temporary files
+*.asv
+*.tmp
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
