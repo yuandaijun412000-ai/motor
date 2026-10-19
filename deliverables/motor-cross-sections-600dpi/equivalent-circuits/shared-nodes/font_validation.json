@@ -1,0 +1,60 @@
+[
+  {
+    "italic": [
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "F",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "F",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "F",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "F",
+        "fontStyle": "italic"
+      }
+    ],
+    "polarity": [],
+    "page": 0,
+    "files": [
+      "planar_shared_nodes.png",
+      "planar_shared_nodes.svg"
+    ]
+  }
+]

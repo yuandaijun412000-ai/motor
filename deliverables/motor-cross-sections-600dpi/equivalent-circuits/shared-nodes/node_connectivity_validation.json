@@ -1,0 +1,218 @@
+{
+  "status": "passed",
+  "distinct_nodes_before": 16,
+  "distinct_nodes_after": 16,
+  "duplicate_node_ids_found": 0,
+  "branch_endpoints_bound_to_shared_vertices": 48,
+  "branches": 24,
+  "node_degrees": {
+    "a0": 3,
+    "a1": 3,
+    "a2": 3,
+    "a3": 3,
+    "b0": 3,
+    "b1": 3,
+    "b2": 3,
+    "b3": 3,
+    "c0": 3,
+    "c1": 3,
+    "c2": 3,
+    "c3": 3,
+    "d0": 3,
+    "d1": 3,
+    "d2": 3,
+    "d3": 3
+  },
+  "permanent_magnet_sources": 4,
+  "main_loops": 2,
+  "leakage_loops": 3,
+  "spatial_page_unchanged": true,
+  "topology_changed": false,
+  "bindings": [
+    {
+      "branch": "a01",
+      "source": "a0",
+      "target": "a1",
+      "drawio_source": "magnetic-node-a0",
+      "drawio_target": "magnetic-node-a1"
+    },
+    {
+      "branch": "a12",
+      "source": "a1",
+      "target": "a2",
+      "drawio_source": "magnetic-node-a1",
+      "drawio_target": "magnetic-node-a2"
+    },
+    {
+      "branch": "a23",
+      "source": "a2",
+      "target": "a3",
+      "drawio_source": "magnetic-node-a2",
+      "drawio_target": "magnetic-node-a3"
+    },
+    {
+      "branch": "b01",
+      "source": "b0",
+      "target": "b1",
+      "drawio_source": "magnetic-node-b0",
+      "drawio_target": "magnetic-node-b1"
+    },
+    {
+      "branch": "b12",
+      "source": "b1",
+      "target": "b2",
+      "drawio_source": "magnetic-node-b1",
+      "drawio_target": "magnetic-node-b2"
+    },
+    {
+      "branch": "b23",
+      "source": "b2",
+      "target": "b3",
+      "drawio_source": "magnetic-node-b2",
+      "drawio_target": "magnetic-node-b3"
+    },
+    {
+      "branch": "c01",
+      "source": "c0",
+      "target": "c1",
+      "drawio_source": "magnetic-node-c0",
+      "drawio_target": "magnetic-node-c1"
+    },
+    {
+      "branch": "c12",
+      "source": "c1",
+      "target": "c2",
+      "drawio_source": "magnetic-node-c1",
+      "drawio_target": "magnetic-node-c2"
+    },
+    {
+      "branch": "c23",
+      "source": "c2",
+      "target": "c3",
+      "drawio_source": "magnetic-node-c2",
+      "drawio_target": "magnetic-node-c3"
+    },
+    {
+      "branch": "d01",
+      "source": "d0",
+      "target": "d1",
+      "drawio_source": "magnetic-node-d0",
+      "drawio_target": "magnetic-node-d1"
+    },
+    {
+      "branch": "d12",
+      "source": "d1",
+      "target": "d2",
+      "drawio_source": "magnetic-node-d1",
+      "drawio_target": "magnetic-node-d2"
+    },
+    {
+      "branch": "d23",
+      "source": "d2",
+      "target": "d3",
+      "drawio_source": "magnetic-node-d2",
+      "drawio_target": "magnetic-node-d3"
+    },
+    {
+      "branch": "rear0",
+      "source": "a0",
+      "target": "b0",
+      "drawio_source": "magnetic-node-a0",
+      "drawio_target": "magnetic-node-b0"
+    },
+    {
+      "branch": "rear1",
+      "source": "a1",
+      "target": "b1",
+      "drawio_source": "magnetic-node-a1",
+      "drawio_target": "magnetic-node-b1"
+    },
+    {
+      "branch": "rear2",
+      "source": "a2",
+      "target": "b2",
+      "drawio_source": "magnetic-node-a2",
+      "drawio_target": "magnetic-node-b2"
+    },
+    {
+      "branch": "rear3",
+      "source": "a3",
+      "target": "b3",
+      "drawio_source": "magnetic-node-a3",
+      "drawio_target": "magnetic-node-b3"
+    },
+    {
+      "branch": "front0",
+      "source": "c0",
+      "target": "d0",
+      "drawio_source": "magnetic-node-c0",
+      "drawio_target": "magnetic-node-d0"
+    },
+    {
+      "branch": "front1",
+      "source": "c1",
+      "target": "d1",
+      "drawio_source": "magnetic-node-c1",
+      "drawio_target": "magnetic-node-d1"
+    },
+    {
+      "branch": "front2",
+      "source": "c2",
+      "target": "d2",
+      "drawio_source": "magnetic-node-c2",
+      "drawio_target": "magnetic-node-d2"
+    },
+    {
+      "branch": "front3",
+      "source": "c3",
+      "target": "d3",
+      "drawio_source": "magnetic-node-c3",
+      "drawio_target": "magnetic-node-d3"
+    },
+    {
+      "branch": "yoke_p1",
+      "source": "a0",
+      "target": "c0",
+      "drawio_source": "magnetic-node-a0",
+      "drawio_target": "magnetic-node-c0"
+    },
+    {
+      "branch": "yoke_p2",
+      "source": "b0",
+      "target": "d0",
+      "drawio_source": "magnetic-node-b0",
+      "drawio_target": "magnetic-node-d0"
+    },
+    {
+      "branch": "yoke_s1",
+      "source": "a3",
+      "target": "c3",
+      "drawio_source": "magnetic-node-a3",
+      "drawio_target": "magnetic-node-c3"
+    },
+    {
+      "branch": "yoke_s2",
+      "source": "b3",
+      "target": "d3",
+      "drawio_source": "magnetic-node-b3",
+      "drawio_target": "magnetic-node-d3"
+    }
+  ],
+  "interpretation": "Coalesce repeated references to the same graph node; omitted reluctance symbols do not establish equal magnetic potential across a branch.",
+  "native_mxgraph_runtime_check": {
+    "native_nodes": 16,
+    "native_branches": 24,
+    "all_nodes_have_three_connected_branches": true,
+    "moved_node": "a0",
+    "all_three_incident_branches_follow_node": true,
+    "restored_after_check": true
+  },
+  "image": {
+    "pixels": [
+      8000,
+      9900
+    ],
+    "dpi": 600,
+    "metadata_preserves_pixels": true
+  }
+}

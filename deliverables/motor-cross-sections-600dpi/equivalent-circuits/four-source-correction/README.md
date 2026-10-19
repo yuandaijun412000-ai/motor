@@ -1,3 +1,5 @@
+> 二维图的共用端点已更新为原生节点连接：[新版 draw.io（含三维、二维两页）](../shared-nodes/motor_four_source_shared_nodes.drawio) · [二维高清图](../shared-nodes/planar_shared_nodes.png) · [核对说明](../shared-nodes/README.md)。16个不同磁路节点保持不变，24条支路的48个端点共用对应节点对象。
+
 # 四永磁体／四磁势源等效磁路修正版
 
 本版替代此前未经等效验证而合并为两个磁势源的版本。按完整单元保留初级两个、次级两个永磁体的四条独立励磁支路；同类磁体参数可以相等，但不能据此合并连接节点。
