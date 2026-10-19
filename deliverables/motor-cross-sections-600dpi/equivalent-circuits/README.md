@@ -1,3 +1,11 @@
+> **更正：请使用四源修正版。** 本目录此前的两源图把完整单元的四条永磁体励磁支路合并为两条，未建立保留节点关系的等效证明，已被替代。
+>
+> [四源 draw.io（两页，可编辑）](four-source-correction/motor_four_source_circuits.drawio) · [三维高清 PNG](four-source-correction/four_source_circuit_3d.png) · [二维高清 PNG](four-source-correction/four_source_circuit_2d.png) · [完整压缩包](four-source-correction/motor_four_source_circuits_bundle.zip)
+>
+> 修正版保留初级两个、次级两个磁势源，并按照论文完整单元核对三维与二维的节点、源极性及两个主回路、三个漏磁回路。[修正版说明](four-source-correction/README.md)
+
+---
+
 # 单定子振荡电机：三维与二维等效磁路
 
 依据用户上传的罗俊等《双交替极横向磁通直线电机的基础研究》图3、图4所采用的磁路分解方法，为用户“初级一个铁齿和一块永磁体、次级两个铁齿和一块永磁体”的单定子结构制作的符号简化拓扑图。

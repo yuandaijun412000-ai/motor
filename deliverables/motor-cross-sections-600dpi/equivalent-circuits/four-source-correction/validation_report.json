@@ -1,0 +1,51 @@
+{
+  "result": "passed",
+  "views": [
+    {
+      "page": "3d",
+      "sources": 4,
+      "pm_reluctances": 4,
+      "working_gaps": 4,
+      "nodes": 16,
+      "branches": 24,
+      "independent_meshes": 9,
+      "selected_main_loops": 2,
+      "selected_leakage_loops": 3,
+      "source_polarities_preserved": true,
+      "loop_leaders_on_correct_trace": true
+    },
+    {
+      "page": "2d",
+      "sources": 4,
+      "pm_reluctances": 4,
+      "working_gaps": 4,
+      "nodes": 16,
+      "branches": 24,
+      "independent_meshes": 9,
+      "selected_main_loops": 2,
+      "selected_leakage_loops": 3,
+      "source_polarities_preserved": true,
+      "loop_leaders_on_correct_trace": true
+    }
+  ],
+  "images": [
+    {
+      "file": "four_source_circuit_3d.png",
+      "pixels": [
+        8500,
+        8050
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "four_source_circuit_2d.png",
+      "pixels": [
+        8000,
+        9900
+      ],
+      "dpi": 600
+    }
+  ],
+  "reference": "罗俊等《双交替极横向磁通直线电机的基础研究》图3、图4及第2.1节",
+  "scope": "Topology and reference directions, not a numerical magnetic-field solution."
+}

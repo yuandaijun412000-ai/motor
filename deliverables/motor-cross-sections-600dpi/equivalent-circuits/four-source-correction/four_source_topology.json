@@ -1,0 +1,514 @@
+{
+  "branches": {
+    "a01": [
+      "a0",
+      "a1"
+    ],
+    "a12": [
+      "a1",
+      "a2"
+    ],
+    "a23": [
+      "a2",
+      "a3"
+    ],
+    "b01": [
+      "b0",
+      "b1"
+    ],
+    "b12": [
+      "b1",
+      "b2"
+    ],
+    "b23": [
+      "b2",
+      "b3"
+    ],
+    "c01": [
+      "c0",
+      "c1"
+    ],
+    "c12": [
+      "c1",
+      "c2"
+    ],
+    "c23": [
+      "c2",
+      "c3"
+    ],
+    "d01": [
+      "d0",
+      "d1"
+    ],
+    "d12": [
+      "d1",
+      "d2"
+    ],
+    "d23": [
+      "d2",
+      "d3"
+    ],
+    "rear0": [
+      "a0",
+      "b0"
+    ],
+    "rear1": [
+      "a1",
+      "b1"
+    ],
+    "rear2": [
+      "a2",
+      "b2"
+    ],
+    "rear3": [
+      "a3",
+      "b3"
+    ],
+    "front0": [
+      "c0",
+      "d0"
+    ],
+    "front1": [
+      "c1",
+      "d1"
+    ],
+    "front2": [
+      "c2",
+      "d2"
+    ],
+    "front3": [
+      "c3",
+      "d3"
+    ],
+    "yoke_p1": [
+      "a0",
+      "c0"
+    ],
+    "yoke_p2": [
+      "b0",
+      "d0"
+    ],
+    "yoke_s1": [
+      "a3",
+      "c3"
+    ],
+    "yoke_s2": [
+      "b3",
+      "d3"
+    ]
+  },
+  "sources": {
+    "p1": {
+      "branch": "b01",
+      "negative": "b1",
+      "positive": "b0",
+      "label": "pri,1",
+      "rlabel": "pM,1",
+      "kind": "primary"
+    },
+    "p2": {
+      "branch": "c01",
+      "negative": "c1",
+      "positive": "c0",
+      "label": "pri,2",
+      "rlabel": "pM,2",
+      "kind": "primary"
+    },
+    "s1": {
+      "branch": "a23",
+      "negative": "a3",
+      "positive": "a2",
+      "label": "sec,1",
+      "rlabel": "sM,1",
+      "kind": "secondary"
+    },
+    "s2": {
+      "branch": "c23",
+      "negative": "c3",
+      "positive": "c2",
+      "label": "sec,2",
+      "rlabel": "sM,2",
+      "kind": "secondary"
+    }
+  },
+  "cycles": [
+    {
+      "id": "M1",
+      "label": "主回路 1",
+      "color": "#C92525",
+      "dashed": false,
+      "nodes": [
+        "b1",
+        "b0",
+        "d0",
+        "d1",
+        "d2",
+        "d3",
+        "b3",
+        "b2",
+        "b1"
+      ],
+      "shift": [
+        12,
+        -10
+      ],
+      "branches": [
+        {
+          "branch": "b01",
+          "sign": -1
+        },
+        {
+          "branch": "yoke_p2",
+          "sign": 1
+        },
+        {
+          "branch": "d01",
+          "sign": 1
+        },
+        {
+          "branch": "d12",
+          "sign": 1
+        },
+        {
+          "branch": "d23",
+          "sign": 1
+        },
+        {
+          "branch": "yoke_s2",
+          "sign": -1
+        },
+        {
+          "branch": "b23",
+          "sign": -1
+        },
+        {
+          "branch": "b12",
+          "sign": -1
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "label": "主回路 2",
+      "color": "#126EB5",
+      "dashed": false,
+      "nodes": [
+        "a3",
+        "a2",
+        "a1",
+        "a0",
+        "c0",
+        "d0",
+        "d1",
+        "d2",
+        "d3",
+        "c3",
+        "a3"
+      ],
+      "shift": [
+        -12,
+        10
+      ],
+      "branches": [
+        {
+          "branch": "a23",
+          "sign": -1
+        },
+        {
+          "branch": "a12",
+          "sign": -1
+        },
+        {
+          "branch": "a01",
+          "sign": -1
+        },
+        {
+          "branch": "yoke_p1",
+          "sign": 1
+        },
+        {
+          "branch": "front0",
+          "sign": 1
+        },
+        {
+          "branch": "d01",
+          "sign": 1
+        },
+        {
+          "branch": "d12",
+          "sign": 1
+        },
+        {
+          "branch": "d23",
+          "sign": 1
+        },
+        {
+          "branch": "front3",
+          "sign": -1
+        },
+        {
+          "branch": "yoke_s1",
+          "sign": -1
+        }
+      ]
+    },
+    {
+      "id": "L1",
+      "label": "漏磁回路 1",
+      "color": "#C92525",
+      "dashed": true,
+      "nodes": [
+        "b1",
+        "b0",
+        "a0",
+        "a1",
+        "b1"
+      ],
+      "shift": [
+        -20,
+        14
+      ],
+      "branches": [
+        {
+          "branch": "b01",
+          "sign": -1
+        },
+        {
+          "branch": "rear0",
+          "sign": -1
+        },
+        {
+          "branch": "a01",
+          "sign": 1
+        },
+        {
+          "branch": "rear1",
+          "sign": 1
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "label": "漏磁回路 2",
+      "color": "#126EB5",
+      "dashed": true,
+      "nodes": [
+        "a3",
+        "a2",
+        "b2",
+        "b3",
+        "a3"
+      ],
+      "shift": [
+        15,
+        -12
+      ],
+      "branches": [
+        {
+          "branch": "a23",
+          "sign": -1
+        },
+        {
+          "branch": "rear2",
+          "sign": 1
+        },
+        {
+          "branch": "b23",
+          "sign": 1
+        },
+        {
+          "branch": "rear3",
+          "sign": -1
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "label": "漏磁回路 3",
+      "color": "#16814A",
+      "dashed": true,
+      "nodes": [
+        "c3",
+        "c2",
+        "c1",
+        "c0",
+        "d0",
+        "d1",
+        "d2",
+        "d3",
+        "c3"
+      ],
+      "shift": [
+        25,
+        16
+      ],
+      "branches": [
+        {
+          "branch": "c23",
+          "sign": -1
+        },
+        {
+          "branch": "c12",
+          "sign": -1
+        },
+        {
+          "branch": "c01",
+          "sign": -1
+        },
+        {
+          "branch": "front0",
+          "sign": 1
+        },
+        {
+          "branch": "d01",
+          "sign": 1
+        },
+        {
+          "branch": "d12",
+          "sign": 1
+        },
+        {
+          "branch": "d23",
+          "sign": 1
+        },
+        {
+          "branch": "front3",
+          "sign": -1
+        }
+      ]
+    }
+  ],
+  "planar_mapping": {
+    "a3": [
+      550,
+      180
+    ],
+    "a2": [
+      550,
+      400
+    ],
+    "a1": [
+      550,
+      620
+    ],
+    "a0": [
+      550,
+      840
+    ],
+    "c0": [
+      550,
+      1000
+    ],
+    "c1": [
+      550,
+      1220
+    ],
+    "c2": [
+      550,
+      1440
+    ],
+    "c3": [
+      550,
+      1660
+    ],
+    "b3": [
+      1050,
+      180
+    ],
+    "b2": [
+      1050,
+      400
+    ],
+    "b1": [
+      1050,
+      620
+    ],
+    "b0": [
+      1050,
+      840
+    ],
+    "d0": [
+      1050,
+      1000
+    ],
+    "d1": [
+      1050,
+      1220
+    ],
+    "d2": [
+      1050,
+      1440
+    ],
+    "d3": [
+      1050,
+      1660
+    ]
+  },
+  "spatial_mapping": {
+    "a0": [
+      360,
+      220
+    ],
+    "a1": [
+      360,
+      420
+    ],
+    "a2": [
+      360,
+      620
+    ],
+    "a3": [
+      360,
+      960
+    ],
+    "b0": [
+      960,
+      220
+    ],
+    "b1": [
+      960,
+      420
+    ],
+    "b2": [
+      960,
+      620
+    ],
+    "b3": [
+      960,
+      960
+    ],
+    "c0": [
+      560,
+      440
+    ],
+    "c1": [
+      560,
+      640
+    ],
+    "c2": [
+      560,
+      840
+    ],
+    "c3": [
+      560,
+      1180
+    ],
+    "d0": [
+      1160,
+      440
+    ],
+    "d1": [
+      1160,
+      640
+    ],
+    "d2": [
+      1160,
+      840
+    ],
+    "d3": [
+      1160,
+      1180
+    ]
+  },
+  "source_reluctance_convention": "Each retained R label denotes the complete corresponding branch reluctance."
+}
