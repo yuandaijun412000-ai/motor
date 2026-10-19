@@ -1,0 +1,106 @@
+[
+  {
+    "italic": [
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "F",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "F",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "z",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "u",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "r",
+        "fontStyle": "italic"
+      }
+    ],
+    "polarity": [],
+    "page": 0,
+    "files": [
+      "motor_equivalent_circuit_3d.png",
+      "motor_equivalent_circuit_3d.svg"
+    ]
+  },
+  {
+    "italic": [
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "R",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "F",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "F",
+        "fontStyle": "italic"
+      }
+    ],
+    "polarity": [],
+    "page": 1,
+    "files": [
+      "motor_equivalent_circuit_2d.png",
+      "motor_equivalent_circuit_2d.svg"
+    ]
+  }
+]

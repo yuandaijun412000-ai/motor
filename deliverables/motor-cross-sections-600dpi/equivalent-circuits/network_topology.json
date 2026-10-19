@@ -1,0 +1,137 @@
+{
+  "nodes": {
+    "A": "初级铁芯磁位节点",
+    "B": "次级铁芯磁位节点",
+    "C": "初级永磁体气隙侧节点",
+    "D": "次级永磁体气隙侧节点"
+  },
+  "branches": {
+    "pm_p": [
+      "C",
+      "A"
+    ],
+    "pm_s": [
+      "B",
+      "D"
+    ],
+    "gap_1": [
+      "B",
+      "C"
+    ],
+    "gap_2": [
+      "D",
+      "A"
+    ],
+    "gap_0": [
+      "A",
+      "B"
+    ],
+    "leak_p": [
+      "A",
+      "C"
+    ],
+    "leak_s": [
+      "D",
+      "B"
+    ],
+    "gap_3": [
+      "A",
+      "B"
+    ],
+    "gap_4": [
+      "D",
+      "C"
+    ]
+  },
+  "cycles": [
+    {
+      "id": "M1",
+      "label": "主回路 1",
+      "color": "#CA2727",
+      "dashed": false,
+      "branches": [
+        "pm_p",
+        "gap_0",
+        "gap_1"
+      ],
+      "shift": [
+        -9,
+        -6
+      ],
+      "source": "初级永磁体"
+    },
+    {
+      "id": "M2",
+      "label": "主回路 2",
+      "color": "#1670B8",
+      "dashed": false,
+      "branches": [
+        "pm_s",
+        "gap_2",
+        "gap_0"
+      ],
+      "shift": [
+        9,
+        6
+      ],
+      "source": "次级永磁体"
+    },
+    {
+      "id": "L1",
+      "label": "漏磁回路 1",
+      "color": "#CA2727",
+      "dashed": true,
+      "branches": [
+        "pm_p",
+        "leak_p"
+      ],
+      "shift": [
+        -20,
+        13
+      ],
+      "source": "初级侧局部漏磁"
+    },
+    {
+      "id": "L2",
+      "label": "漏磁回路 2",
+      "color": "#1670B8",
+      "dashed": true,
+      "branches": [
+        "pm_s",
+        "leak_s"
+      ],
+      "shift": [
+        20,
+        13
+      ],
+      "source": "次级侧局部漏磁"
+    },
+    {
+      "id": "L3",
+      "label": "漏磁回路 3",
+      "color": "#19834D",
+      "dashed": true,
+      "branches": [
+        "pm_p",
+        "gap_3",
+        "pm_s",
+        "gap_4"
+      ],
+      "shift": [
+        20,
+        -10
+      ],
+      "source": "两磁体耦合漏磁"
+    }
+  ],
+  "retained_reluctances": [
+    "RpM",
+    "RsM",
+    "Rg,0",
+    "Rg,1",
+    "Rg,2",
+    "Rg,3",
+    "Rg,4"
+  ],
+  "convention": "Only omitted reluctance symbols/labels are removed; omitted leakage branch values are not set to zero."
+}

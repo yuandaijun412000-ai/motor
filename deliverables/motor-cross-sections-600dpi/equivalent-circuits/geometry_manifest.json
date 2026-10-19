@@ -1,0 +1,18 @@
+[
+  {
+    "page": 0,
+    "name": "三维等效磁路",
+    "width": 1580,
+    "height": 1240,
+    "basename": "motor_equivalent_circuit_3d",
+    "expect_polarity": false
+  },
+  {
+    "page": 1,
+    "name": "二维等效磁路",
+    "width": 1500,
+    "height": 1330,
+    "basename": "motor_equivalent_circuit_2d",
+    "expect_polarity": false
+  }
+]
