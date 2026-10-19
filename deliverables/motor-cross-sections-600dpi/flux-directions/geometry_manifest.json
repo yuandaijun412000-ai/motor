@@ -1,0 +1,196 @@
+[
+  {
+    "page": 0,
+    "name": "三位置主漏磁通",
+    "width": 1200,
+    "height": 2265,
+    "geometry": [
+      {
+        "position": 1,
+        "overlap_fraction": 1.0,
+        "primary_pm": [
+          410,
+          570
+        ],
+        "secondary_pm": [
+          410.0,
+          570.0
+        ],
+        "secondary_teeth": [
+          [
+            250.0,
+            410.0
+          ],
+          [
+            570.0,
+            730.0
+          ]
+        ],
+        "main_directions": [
+          "down",
+          "down"
+        ]
+      },
+      {
+        "position": 2,
+        "overlap_fraction": 0.5,
+        "primary_pm": [
+          410,
+          570
+        ],
+        "secondary_pm": [
+          490.0,
+          650.0
+        ],
+        "secondary_teeth": [
+          [
+            330.0,
+            490.0
+          ],
+          [
+            650.0,
+            810.0
+          ]
+        ],
+        "main_directions": [
+          "up",
+          "up",
+          "down"
+        ]
+      },
+      {
+        "position": 3,
+        "overlap_fraction": 0.0,
+        "primary_pm": [
+          410,
+          570
+        ],
+        "secondary_pm": [
+          570.0,
+          730.0
+        ],
+        "secondary_teeth": [
+          [
+            410.0,
+            570.0
+          ],
+          [
+            730.0,
+            890.0
+          ]
+        ],
+        "main_directions": [
+          "up",
+          "up",
+          "up",
+          "up"
+        ]
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "name": "位置1",
+    "width": 1200,
+    "height": 755,
+    "geometry": [
+      {
+        "position": 1,
+        "overlap_fraction": 1.0,
+        "primary_pm": [
+          410,
+          570
+        ],
+        "secondary_pm": [
+          410.0,
+          570.0
+        ],
+        "secondary_teeth": [
+          [
+            250.0,
+            410.0
+          ],
+          [
+            570.0,
+            730.0
+          ]
+        ],
+        "main_directions": [
+          "down",
+          "down"
+        ]
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "name": "位置2",
+    "width": 1200,
+    "height": 755,
+    "geometry": [
+      {
+        "position": 2,
+        "overlap_fraction": 0.5,
+        "primary_pm": [
+          410,
+          570
+        ],
+        "secondary_pm": [
+          490.0,
+          650.0
+        ],
+        "secondary_teeth": [
+          [
+            330.0,
+            490.0
+          ],
+          [
+            650.0,
+            810.0
+          ]
+        ],
+        "main_directions": [
+          "up",
+          "up",
+          "down"
+        ]
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "name": "位置3",
+    "width": 1200,
+    "height": 755,
+    "geometry": [
+      {
+        "position": 3,
+        "overlap_fraction": 0.0,
+        "primary_pm": [
+          410,
+          570
+        ],
+        "secondary_pm": [
+          570.0,
+          730.0
+        ],
+        "secondary_teeth": [
+          [
+            410.0,
+            570.0
+          ],
+          [
+            730.0,
+            890.0
+          ]
+        ],
+        "main_directions": [
+          "up",
+          "up",
+          "up",
+          "up"
+        ]
+      }
+    ]
+  }
+]

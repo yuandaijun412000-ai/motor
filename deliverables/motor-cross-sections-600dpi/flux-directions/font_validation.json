@@ -1,0 +1,262 @@
+[
+  {
+    "italic": [
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "σ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "s",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "w",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "σ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "s",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "w",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "σ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "s",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "w",
+        "fontStyle": "italic"
+      }
+    ],
+    "polarity": [
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      }
+    ],
+    "page": 0,
+    "files": [
+      "motor_flux_three_positions.png",
+      "motor_flux_three_positions.svg"
+    ]
+  },
+  {
+    "italic": [
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "σ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "s",
+        "fontStyle": "italic"
+      }
+    ],
+    "polarity": [
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      }
+    ],
+    "page": 1,
+    "files": [
+      "motor_flux_position_1.png",
+      "motor_flux_position_1.svg"
+    ]
+  },
+  {
+    "italic": [
+      {
+        "text": "w",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "σ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "s",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "w",
+        "fontStyle": "italic"
+      }
+    ],
+    "polarity": [
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      }
+    ],
+    "page": 2,
+    "files": [
+      "motor_flux_position_2.png",
+      "motor_flux_position_2.svg"
+    ]
+  },
+  {
+    "italic": [
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "Φ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "σ",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "s",
+        "fontStyle": "italic"
+      },
+      {
+        "text": "w",
+        "fontStyle": "italic"
+      }
+    ],
+    "polarity": [
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "N",
+        "fontStyle": "normal"
+      },
+      {
+        "text": "S",
+        "fontStyle": "normal"
+      }
+    ],
+    "page": 3,
+    "files": [
+      "motor_flux_position_3.png",
+      "motor_flux_position_3.svg"
+    ]
+  }
+]
